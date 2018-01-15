@@ -49,13 +49,11 @@ def kesha_maker(n)
 end
 
 def find_a(n)
-  list=[]
-  n.each { |e|
+  n.collect { |e|
     if e[0] === 'a'
       list << e
     end
   }
-  list
 end
 
 def sum_array(n)
