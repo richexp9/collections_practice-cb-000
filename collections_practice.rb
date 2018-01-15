@@ -55,6 +55,7 @@ def find_a(n)
       list << e
     end
   }
+  list
 end
 
 def sum_array(n)
