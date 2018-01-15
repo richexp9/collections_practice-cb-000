@@ -49,6 +49,8 @@ def kesha_maker(n)
 end
 
 def find_a(n)
+  .start_with?
+
   list = []
   n.collect { |e|
     if e[0] === 'a'
@@ -57,7 +59,7 @@ def find_a(n)
   }
   list
 
-  
+
 end
 
 def sum_array(n)
