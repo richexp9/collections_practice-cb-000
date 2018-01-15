@@ -49,9 +49,10 @@ def kesha_maker(n)
 end
 
 def find_a(n)
+  list = []
   n.collect { |e|
     if e[0] === 'a'
-      e
+      list << e
     end
   }
 end
