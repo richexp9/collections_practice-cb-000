@@ -49,15 +49,16 @@ def kesha_maker(n)
 end
 
 def find_a(n)
-  .start_with?
-
-  list = []
-  n.collect { |e|
-    if e[0] === 'a'
-      list << e
-    end
-  }
-  list
+  n.find_all { |e|  e.start_with?('a')}
+  # .start_with?
+  #
+  # list = []
+  # n.collect { |e|
+  #   if e[0] === 'a'
+  #     list << e
+  #   end
+  # }
+  # list
 
 
 end
