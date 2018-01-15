@@ -51,7 +51,7 @@ end
 def find_a(n)
   n.collect { |e|
     if e[0] === 'a'
-      list << e
+      e
     end
   }
 end
